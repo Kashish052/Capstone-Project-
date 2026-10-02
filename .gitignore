@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+logs/*.log
+.ipynb_checkpoints/
+models/*.joblib
+data/processed/*.csv
+reports/figures/*.png
+reports/monitoring.json
