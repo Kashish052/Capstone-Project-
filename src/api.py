@@ -50,7 +50,7 @@ def home():
     })
 
 
-@app.post("/predict")
+@app.route("/predict", methods=["GET", "POST"])
 def predict_endpoint():
     started = time.perf_counter()
     date = request.args.get("date")
